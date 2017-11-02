@@ -154,6 +154,7 @@ public class Game {
 
         for (int i = 0; i <= 2; i++)
         {
+
             //checkColumn
             if (grid[i][0] == turn && grid[i][1] == turn && grid[i][2] == turn)
                 result = turn + " wins";
